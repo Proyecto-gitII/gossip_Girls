@@ -6,8 +6,13 @@ h3 {
  color: aliceblue;
  
 } 
-p{  font-family:"Montserrat"; 
+.p1{  font-family:"Montserrat"; 
     color: aliceblue;
 }
+
+.p2{
+    color: black;
+}
+
 
  
