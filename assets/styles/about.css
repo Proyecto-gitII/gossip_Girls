@@ -1,0 +1,20 @@
+main{ background-color: rgb(87, 28, 28) ;
+}
+
+h3 {
+    font-family: "Montserrat";
+    color: aliceblue;
+
+} 
+.p1{  font-family:"Montserrat"; 
+        color: aliceblue;
+}
+
+.p2{
+    color: black;
+}
+
+.card1 {
+    border-radius: 15px;
+}
+ 
