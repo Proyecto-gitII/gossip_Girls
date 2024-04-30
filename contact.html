@@ -16,6 +16,8 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/styles/contact.css">
         <link rel="icon" href="assets/img/icon.png">
     </head>
 
@@ -59,9 +61,72 @@
                     </nav>
             </header>
         </header>
-        <main class="container-fluid bg-dark" style="min-height: 100vh;">
+     <main class="container-fluid" style="min-height: 100vh; background-image: url(assets/img/new-york-financial-district-united-states-nyc.jpg); 
+        background-size: cover; background-attachment: fixed;background-color: rgba(0, 0, 0, 0.5);">
+        <div class="d-flex justify-content-center">
+        <img  style="height:115px;" src="assets/img/goss.png">
+        </div>
 
+        <div id="contact" class="contact-area section-padding">
+            <div class="container " style="background-color: rgba(0, 0, 0, 0.788);">										
+                <div class="section-title text-center">
+                    <h1 style="color: white;">Want to get in touch?</h1>
+                    <p style="color: white;">If you have to get any up to date  of the lives of the most scandalous lives of the Upper East Side
+                        of Manhattan send us a gmail so we can notify you about anything, otherwise if you have hear of some 
+                        rumor you are free to send it. XOXO
+                    </p>
+                </div>					
+                <div class="row">
+                    <div class="col-lg-7">	
+                        <div class="contact d-flex justify-content-between" >
+                            <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+                                <div class=" d-flex row justify-content-between">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="single_address">
+                          <a href="https://www.instagram.com/gossipgirl/">
+                             <i class="fa fa-instagram"></i> </a> 
+                            <h4 style="color: white;">Instagram</h4>
+                        </div>
+                        <div class="single_address">
+                           <a href="https://support.google.com/accounts/answer/27441?hl=es-419">
+                             <i class="fa fa-envelope"></i></a>
+                            <h4 style="color: white;">Send me a mail</h4>
+                            <p style="color: white;">Gossipgirl@gmail.com</p>
+                        </div>
+                        <div class="single_address">
+                           <a href="https://www.facebook.com/GossipGirl/?locale=es_LA">
+                            <i class="fa  fa-facebook"></i> </a> 
+                            <h4 style="color: white;">Vsit our website</h4>
+                            <p style="color: white;">GossipGirl.com</p>
+                        </div>				
+                    </div>
+                </div>
+            </div>	
+        </div>
+        <br>
+        <br>
+        <br>
         </main>
+        
         <footer>
             <footer>
                 <footer class="col-12 lg">
